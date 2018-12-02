@@ -1,0 +1,40 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+body {
+  #root{
+    background-color: $body;
+    color: $main-text;
+    display: grid;
+    font-family: sans-serif;
+  
+    grid-template-areas:
+      "nav nav nav"
+      "left content right"
+      "footer footer footer";
+  
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+
+    .nav {
+      align-items: center;
+      background-color: $color-primary-3;
+      color: $main-text;
+      display: flex;
+      grid-area: nav;
+      justify-content: center;
+      padding: 2em;
+    }
+
+    .main {
+      align-items: center;
+      background-color: $body;
+      color: $main-text;
+      display: block;
+      grid-area: content;
+      justify-content: center;
+    }
+  }
+}

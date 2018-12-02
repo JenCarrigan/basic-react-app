@@ -1,0 +1,31 @@
+@import 'variables';
+
+@mixin border-radius($radius, $color) {
+  -webkit-border-radius: $radius;
+  border: 1px solid $color;
+  border-radius: $radius;
+  background-clip: padding-box;
+}
+
+@mixin links($link, $hover, $active) {
+  a {
+    background-color: $hover;
+    color: $link;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $link;
+      color: $hover;
+    }
+    &:active {
+      background-color: $link;
+      color: $active;
+    }
+  }
+}
+
+@mixin bleed() {
+  bleed: 5px;
+}

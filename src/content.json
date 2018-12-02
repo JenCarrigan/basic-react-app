@@ -1,0 +1,96 @@
+[
+  {
+      "deckTitle": "",
+      "records": [
+          {
+              "title": "",
+              "copy": "",
+              "media": {
+                  "alt": "",
+                  "title": "",
+                  "href": ""
+              },
+              "links": [
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  },
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  }
+              ]
+          },
+          {
+              "title": "",
+              "copy": "",
+              "media": {
+                  "alt": "",
+                  "title": "",
+                  "href": ""
+              },
+              "links": [
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  },
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  }
+              ]
+          },
+          {
+              "title": "",
+              "copy": "",
+              "media": {
+                  "alt": "",
+                  "title": "",
+                  "href": ""
+              },
+              "links": [
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  },
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "deckTitle": "",
+      "records": [
+          {
+              "title": "",
+              "copy": "",
+              "media": {
+                  "alt": "",
+                  "title": "",
+                  "href": ""
+              },
+              "links": [
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  },
+                  {
+                      "type": "",
+                      "title": "",
+                      "href": ""
+                  }
+              ]
+          }
+      ]
+  }
+]

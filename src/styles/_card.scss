@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixins';
+
+.card {
+  background-color: $color-primary-0;
+  color: $body;
+  height: 280px;
+  margin: 0 30px;
+  padding: 10px;
+  width: 200px;
+  @include border-radius(20px, $body);
+  @include links($color-complement-4, $color-complement-1, $color-complement-1);
+
+  h3 {
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    @include border-radius(10px, $body);
+  }
+
+  a {
+    @include border-radius(2px, $main-text);
+    display: block;
+    text-align: center;
+  }
+}
